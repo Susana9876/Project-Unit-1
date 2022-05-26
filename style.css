@@ -1,0 +1,89 @@
+#container{
+    margin: 40px;
+}
+
+#hey{
+    margin-top: 20px;
+}
+
+#heyThere{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#name{
+    margin-top: 20px;
+}
+
+#nameL{
+    margin-top: 20px;
+    margin-left: 150px;
+}
+
+#icon{
+    margin: 20px;
+}
+
+#iconCol{
+    margin-top: 30px;
+}
+
+#button{
+    margin-top: 30px;
+}
+
+#buttonCol{
+    margin-top: 20px;
+    /*margin-left: 150px;*/
+    isolation: isolate;
+}
+
+#img{
+    width: 150px;
+    /*margin: 20px auto;*/
+    background-color: none;
+    color: #fff;
+    padding: 15px;
+    margin-left: 250px;
+}
+
+#imgStyle{
+    float: right;
+    width: 300px;
+    height: 300px;
+}
+
+
+#buttonStyle {
+    background: linear-gradient(90deg, rgb(20%, 40%, 60%), rgb(60%, 20%, 40%));
+    width: 150px;
+    height: 40px;
+    border-radius: 30px;
+    border: 0px;
+    color: white;
+}
+
+#hobbiesList{
+    margin-top: 30px;
+}
+
+#hobbies{
+    margin-top: 10px;
+}
+
+
+#icon{
+    margin: 10px;
+}
+
+.bubble::after {
+    content: '';
+    border-top-left-radius: 50% 100%;
+    border-top-right-radius: 50% 100%;
+    position: absolute;
+    bottom: 0;
+    z-index: -1;
+    width: 100%;
+    background-color: rgb(233, 175, 233);
+    height: 85%;
+}
